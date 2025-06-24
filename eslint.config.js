@@ -35,7 +35,9 @@ module.exports = tseslint.config(
 					prefix: 'app',
 					style: 'kebab-case'
 				}
-			]
+			],
+			'prettier/prettier': 'error',
+			'@typescript-eslint/no-explicit-any': 'error'
 		}
 	},
 	{

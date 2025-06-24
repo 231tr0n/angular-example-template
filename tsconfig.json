@@ -3,6 +3,14 @@
 {
 	"compileOnSave": false,
 	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"exactOptionalPropertyTypes": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
 		"strict": true,
 		"noImplicitOverride": true,
 		"noPropertyAccessFromIndexSignature": true,
